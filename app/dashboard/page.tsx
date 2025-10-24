@@ -1,3 +1,6 @@
+// Force dynamic rendering - don't prerender this page
+export const dynamic = 'force-dynamic'
+
 'use client'
 
 import { useEffect, useState } from 'react'
