@@ -1,0 +1,11 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://gepycxkxiyjfbcpjemix.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlcHljeGt4aXlqZmJjcGplbWl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA5Nzg0ODcsImV4cCI6MjA3NjU1NDQ4N30.kfIjIlCWQg0BFB_0M3DU6s9vur3wTkAEgC1PExbo6Cg",
+    "NEXT_PUBLIC_API_BASE_URL": "http://localhost:8000"
+  }
+}
