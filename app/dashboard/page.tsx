@@ -1,11 +1,11 @@
-// Force dynamic rendering - don't prerender this page
-export const dynamic = 'force-dynamic'
-
 'use client'
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
+
+// Force dynamic rendering to prevent environment variable issues during build
+export const dynamic = 'force-dynamic'
 
 interface User {
   id: string
